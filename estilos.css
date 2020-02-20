@@ -1,0 +1,452 @@
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    text-transform: capitalize; /*para que las palabras empiecen por may que si sean pequenas y tal*/
+    text-decoration: none; /*esto es que si le pones una ralla abajo*/
+    color:white;
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    /* margin: 100px 150px 70px 30px; */
+    /* margin: top right bottom left */
+  }
+  h1 strong {
+    color:#026FFF;
+  }
+  
+  h2,h3,h4,h5,h6{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    /*font-style: italic; esta es la cursiva*/
+  }
+  
+  .header{
+    background-color: #1b2127;
+    color:white;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;/*poner el logo en un lado y las letras en el otro*/
+    align-items: center; /*centrar de manera vertical las letras*/
+    flex-wrap: wrap;
+  }
+
+
+  
+  header ol{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; /*Son los numeros que iban al lado*/
+  }
+  .header a{
+    color:white;
+    text-decoration: none;
+    padding: 0 20px;
+    padding: 10px;
+  }
+  
+  
+  figure{
+    margin: 0;
+  }
+  
+  .menu_new{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .hero{
+    height: 300px;
+    /* background-image: url(hero.jpg); /*Insertar imagen en css*/
+    /* background-size: 500px 300px;  /*darle el tamano a la imagen */
+    /* background-repeat:no-repeat;; /*para que no se repita la imagen*/
+    /* background-position-x:right; /*colocar del lado derecho a la imagen*/
+    background-color: #1b2127;
+    display: flex;
+    align-items: center; /*centrar el texto*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .hero_imageContainer{
+    height: 300px
+  }
+  
+  h2{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #026FFF;
+    text-transform: uppercase;
+  }
+  
+  .portfolio{
+    background-color:#fafafa;
+    padding: 20px;
+  }
+  .project_details{
+    width: 50%;
+  }
+  
+  .project_imageContainer{
+    width: 50%;
+    text-align: center;
+  }
+
+  .project_imageContainer img{
+    max-width: 100%; /*ASI SE HACEN LAS IMAGENES RESPONSIVE*/
+  }
+  
+  .project{
+    /* border-top: 10px solid blue; -se indica el lador del borde que se quiere hacer-
+    margin: top right bottom left; estos son los parametros cuando vayas a poner margenes en general
+    margin: 0 auto; centra algo*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-bottom: 20px; /*Darle la seperacion en cada project*/
+    padding:20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project strong{
+    font-family: "Fjalla One", sans-serif;
+  }
+  
+  .project_description{
+    font-size: 20px;
+  }
+  
+  .project_title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  h5{
+    margin: 10px 0;
+  }
+  
+  .project_date,
+  .project_url{
+    margin: 10px 0;
+  }
+  
+  
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+  
+  .event_father{
+    display: flex;
+    flex-wrap: wrap; /*LOS ELEMENTO SE PONEN UNO DEBAJO DEL OTRO CUANDO YA NO TIENEN ESPACIO*/
+  }
+  .event{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0; /*Para que no se altere el tamano asignado*/
+    background-color: #F4FBFF;
+    border-radius: 10px; /*redondear los bordes del event*/
+    overflow: hidden; /*Cuando un elemento se desborde lo oculta*/
+  }
+  
+  .event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover; /*Para que no se distorsione la imagen*/
+  }
+  
+  .event_box{
+    background-color: white;
+    margin: 20px 40px;
+    margin-top: -42px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative; /*Para que este elemento este encima del otro*/
+    text-align: center; /*centrar el titulo*/
+  }
+  
+  .event_description{
+    text-align: left;  /*Poner hacia la izquierda el texto*/
+  }
+  
+  .event_video{
+    color: #026FFF;
+    border: 1px solid #026FFF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .contact{
+    background: #026FFF;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center; /*Para que esto funciones debe tener display de flex*/
+    justify-content: space-between;
+  }
+  
+  .social{
+  
+  }
+  
+  .social_link {
+    height: 50px;
+    display: inline-block; /*Pone las redes solciales una al lado de la otra*/
+    margin: 0 10px;
+  }
+  
+  .social_link.twitter{
+  
+  }
+  
+  .social_link.facebook{
+    background-image: url(facebook.svg);
+    background-size: 50px 50px;
+  }
+  
+  .social_link.github{
+    background-image: url(github.svg);
+    background-size: 50px 50px;
+  }
+  
+  .social_link.instagram{
+    background-image: url(instagram.svg);
+    background-size: 50px 50px;
+    margin-right: 0;
+  }
+  
+  
+  .form_email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url(envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px
+  }
+  
+  .form_email h3{
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    border-style: solid;
+    width: 100px;
+    margin-top: 10px
+    /* margin: 10px auto; */
+  }
+  
+  
+  footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  footer img{
+    vertical-align: middle; /*centrar la imagen con los textos*/
+  }
+  
+  .container{
+    max-width: 1000px;
+    flex: 1; /*sirve para que los elementos se vayan a un lado cada uno cada uno */
+    /*width: 100%;*/ /*Esto es lo mismo como que si pongamos el flex: 1*/
+    margin: 0 auto;
+    display: inherit;  /*Recuerda que el display de flex solo afectan a los hijos directos*/
+    height: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+  }
+  
+  .border{
+    border-left: 25px solid #026FFF;
+  }
+  
+
+  @media screen and (max-width: 1024px){
+    .hero{
+      height: auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero_imageContainer img{
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+    h1{
+      font-size: 3em;
+      z-index: 2;
+    }
+
+  }
+
+  @media screen and (max-width: 767px){
+    .header{
+      display: block;
+      height: auto;
+    }
+
+    h1{
+      font-size: 2em;
+      padding: 10px;
+    }
+
+    .header figure{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .header ol {
+      display: inline;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .header ol li {
+      padding: 12px 10px;
+    }
+
+    .project{
+      display: block;
+    }
+
+    
+    .project_imageContainer{
+      width: auto;
+      text-align: center;
+    }
+    .project_details{
+      width: auto;  /*Siempre es mejor ponerle width auto que qidth 100%*/
+      font-size: 16px;
+    }
+
+    .project_title{
+      font-size: 1em;
+    }
+
+    .project_course{
+      font-size: 0.7em;
+      margin: 0.4em 0;
+    }
+
+    .project_date{
+      font-size: 1em;
+      margin: 0.4em 0;
+    }
+
+    .project_url{
+      font-size: 1em;
+      margin: 0.4em 0;
+
+    }
+
+    .project_description{
+      font-size: 1em;      
+    }
+
+     .event_father .event{
+      width: auto;
+      flex-shrink: initial ;
+    } 
+
+    .event_father .event img{
+      width: 100%;
+    }
+    .contact{
+      padding: 0 1em;
+    }
+
+    footer{
+      padding: 0 1em;
+    }
+
+  }
+
+  @media screen and (max-width: 480px){
+    .project_details{
+      font-size: 12px;
+    }
+
+    h1{
+      padding: 10px;
+      font-size: 1.5em;
+    }
+
+    .project_imageContainer img{
+      height: 150px;
+    }
+
+    .event_box{
+      margin: -2em .5em.5em;
+      padding: 1em;
+    }
+
+    .contact{
+      display: block;
+      text-align: center;
+      height: auto;
+    }
+
+    button{
+      margin: 1em auto;
+    }
+    .form_email h3{
+      margin-top: 0;
+      padding-top: 0.7em;
+    }
+
+    footer{
+      display: block;
+      border: 1px solid transparent;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .container h2{
+      font-size: 1em;
+      margin-left: 1em;
+    }
+
+    h1{
+      font-size: 1.5em;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .event_description{
+      font-size: .8em;
+    }
+  }
